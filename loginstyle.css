@@ -1,0 +1,119 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, sans-serif; */
+    background-color: #f3f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/img/art2.png);
+    background-size: cover;
+    
+  }
+
+  .login-container {
+    background-image: url(/img/back1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 50px;
+    width: 420px;
+    height: 420px;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+  }
+
+  .login-container h1 {
+    color: #333333;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  padding-bottom: 50px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: red;
+    font-family: monospace;
+    font-family: 'Russo One', sans-serif;
+  }
+
+  .input-group {
+    margin-bottom: 20px;
+  }
+
+  .input-group label {
+    display: block;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: yellow;
+    margin-bottom: 5px;
+  }
+
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ca1616;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .login-btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .login-image img{
+    width: 800px;
+    padding-right: 40px;
+    
+    /* height: 200px; */
+  }
+
+  .text-login{
+position: absolute;
+margin-top: -180px;
+margin-right: 920px ;
+font-size: 20px;
+  }
+
+  @media (max-width: 477px){
+    body{
+      display: flex;
+      flex-direction: column;
+    }
+    .login-image img{
+      width: 300px;
+      /* text-align: center; */
+      display: flex;
+     margin-top: -70px;
+     margin-left: 70px;
+    }
+
+    .login-container{
+      width: 220px;
+      height: 380px;
+    }
+
+    .input-group input {
+      width: 50%;
+      /* font-size: 10px; */
+    }
+    
+  }
